@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('version') {
       steps {
-        echo '%PATH%'
+        echo %path%
       }
     }
    
