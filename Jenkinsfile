@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('version') {
       steps {
-        bat 'python CICDoddeven.py'
+        bat 'python CICDtrial.py'
       }
     }
    
