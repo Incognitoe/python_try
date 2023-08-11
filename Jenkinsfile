@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('version') {
       steps {
-        sh 'python CICDoddeven.py'
+        bat 'python CICDoddeven.py'
       }
     }
    
